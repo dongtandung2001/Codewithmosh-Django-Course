@@ -163,7 +163,7 @@ SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(days=1)
 }
 
-# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_BACKEND = 'django.core.mail.backends.`smtp`.EmailBackend'
 
 ADMINS = [
     ('Daniel', 'Daniel@gmail.com')
