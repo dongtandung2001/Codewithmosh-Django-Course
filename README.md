@@ -39,9 +39,6 @@ Then simply apply the migrations:
 
     $ python manage.py migrate
     
-Populate database:
-
-    $ python manage.py seed_db
 Update password of your MySQL database in storefront/settings/dev
 
 ```py
@@ -53,7 +50,12 @@ DATABASES = {
         'PASSWORD': 'Your database password'
     }
 }
-```
+```    
+    
+Populate database:
+
+    $ python manage.py seed_db
+
 
 You can now run the development server:
 
